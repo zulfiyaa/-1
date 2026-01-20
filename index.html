@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио - Ахатова Зульфия</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container flex1">
+            <a href="#" class="logo">
+                <span class="logo_text">Портфолио</span>
+            </a>
+            <nav>
+                <ul class="nav">
+                    <li><a href="#contacts" class="nav_btn">Контакты</a></li>
+                    <li><a href="#skills" class="nav_btn">Навыки</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="hero-section">
+            <div class="slider-section">
+                <div class="top-slider-container">
+                    <button class="prev-button" aria-label="Предыдущий слайд">&#10094;</button>
+                    <div class="top-slider">
+                        <img src="img/1.jpg" alt="Работа 1" class="slide active">
+                        <img src="img/2.jpg" alt="Работа 2" class="slide">
+                        <img src="img/3.jpg" alt="Работа 3" class="slide">
+                    </div>
+                    <button class="next-button" aria-label="Следующий слайд">&#10095;</button>
+                    <div class="slider-dots">
+                        <span class="dot active" data-slide="0"></span>
+                        <span class="dot" data-slide="1"></span>
+                        <span class="dot" data-slide="2"></span>
+                    </div>
+                </div>
+
+                <div class="slider-text">
+                    <h1 class="hero-title">Ахатова Зульфия</h1>
+                    <p class="hero-subtitle">СПбГУПТД • Прикладная информатика в дизайне</p>
+                    <p class="hero-description">
+                        Создаю портфолио по дисциплине "Веб-дизайн" для демонстрации практической работы
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills-section">
+            <h2 class="section-title">Профессиональные навыки</h2>
+            <ul class="skills-list">
+                <li>Умение рисовать и делать наброски</li>
+                <li>Придумывать нестандартное решение</li>
+                <li>Знание основ композиции, работа с перспективой</li>
+            </ul>
+        </section>
+
+        <section class="gallery-section">
+            <div class="gallery-grid">
+                <img src="img/4.jpg" alt="Галерея 1" class="gallery-img">
+                <img src="img/5.jpg" alt="Галерея 2" class="gallery-img">
+                <img src="img/6.jpg" alt="Галерея 3" class="gallery-img">
+                <img src="img/7.jpg" alt="Галерея 4" class="gallery-img">
+            </div>
+        </section>
+
+        <section class="experience-section">
+            <h2 class="section-title">Опыт работы</h2>
+            <div class="experience-card">
+                <h3>Центр по оформлению купли-продажи автомобилей</h3>
+                <p><strong>Должность:</strong> Иллюстратор</p>
+                <p><strong>Обязанности:</strong> Создание иллюстраций для продвижения компании, подготовка дизайн-макетов, создание изображений в цифровом формате</p>
+            </div>
+        </section>
+
+        <section class="tech-section">
+            <h2 class="section-title">Технологии проекта</h2>
+            <div class="tech-grid">
+                <div class="tech-item">
+                    <h3>Perplexity</h3>
+                    <p>Интерактивный слайдер с навигацией</p>
+                </div>
+                <div class="tech-item">
+                    <h3>JavaScript</h3>
+                    <p>Функционал: переключение слайдов, точки навигации, hover-эффекты</p>
+                </div>
+                <div class="tech-item">
+                    <h3>Время</h3>
+                    <p>30 минут</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contacts" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <span>portfolio@mail.ru</span>
+                    </div>
+                    <div class="contact-item">
+                        <span>@portfolio</span>
+                    </div>
+                    <div class="contact-item">
+                        <span>8 999 999 99 99</span>
+                    </div>
+                </div>
+                <div class="footer-tech">
+                    <p>Создано с помощью Perplexity | JavaScript слайдер и интерактивность</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
